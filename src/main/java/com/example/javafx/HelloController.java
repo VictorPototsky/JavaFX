@@ -22,12 +22,12 @@ public class HelloController {
         assert chatField != null : "fx:id=\"textArea\" was not injected: check your FXML file 'hello-view.fxml'.";
 
     }
+
     @FXML
     void checkEnterButton(KeyEvent event) {
-        if (event.getCode().getName().equals("Enter")){
+        if (event.getCode().getName().equals("Enter")) {
             onButtonClick();
         }
-
     }
 
     @FXML
